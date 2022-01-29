@@ -42,7 +42,7 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-.contact_wrappper a p{
+.contact_wrappper a{
     width: 68px;
     font-size: 14px;
     font-weight: 600;
