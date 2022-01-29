@@ -30,6 +30,7 @@ header{
 }
 .header__wrapper{
     display: flex;
+    align-items:center;
     justify-content: space-between;
 }
 .header__wrapper .info{
@@ -52,6 +53,7 @@ header{
     width: 215px;
     display: flex;
     justify-content: space-between;
+    align-items:center;
 }
 .buttons button{
     cursor: pointer;
@@ -73,9 +75,14 @@ header{
     border-width:1px;
     border-style:solid;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
     cursor: pointer;
+    transition: .5s;
+}
+.active_selector{
+    height: 55px;
+    transition: .5s;
 }
 .language_item{
     display: none;
@@ -88,6 +95,7 @@ header{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    transition: .5s;
 }
 .language_selector .select .wrap{
     width: 40px;
